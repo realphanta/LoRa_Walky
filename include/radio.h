@@ -10,11 +10,6 @@
 
   void initRadio();
 
-#elif ARDUINO_SAMD_ZERO
-
-  #include <RH_RF69.h>
-  void initRadio(RH_RF69 &rdio);
-
 #endif
 
 #endif

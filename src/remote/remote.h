@@ -1,8 +1,8 @@
 
 #include <Arduino.h>
 #include "CPU.h"
-#include "globals.h"
-#include "utils.h"
+#include "./globals.h"
+#include "./utils.h"
 
 #include <Adafruit_GFX.h>
 #include "Adafruit_SSD1306.h"
@@ -25,7 +25,7 @@
   #include <soc/rtc_cntl_reg.h>
 
   #include <esp_sleep.h>
-  #include <esp_deep_sleep.h>
+  // #include <esp_deep_sleep.h>
 
   // flash
   #include <nvs.h>

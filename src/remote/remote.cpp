@@ -1,5 +1,6 @@
 
-#include "remote.h"
+#include "./remote.h"
+#include "./heltec_wifi_lora_32_V2/pins_arduino.h"
 
 // define display
 Adafruit_SSD1306 display(RST_OLED);
